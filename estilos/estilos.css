@@ -1,0 +1,265 @@
+body {
+
+    /*fuente*/
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+    /*Mostarr caracteres gruesos o delgados*/
+    font-weight: normal;
+    /*font-style: italic;*/
+}
+
+h1{
+    /*tamaño de fuente*/
+    font-size: 32px;
+    line-height: 150%;
+    /*Espacio entre letras*/
+    letter-spacing: -0.2px;
+    margin: 50px 60px 10px 10px;
+    
+}
+.hero{
+    height: 300px;
+    background-color:#1b2127 ;
+    margin: 0;
+    display: flex;
+    align-content:center ;
+
+    /*para alinear con un ancho fijo va en los hijos*/
+    /*flex-shrink: ;*/
+    /*para hacer que se alinien respecto al ancho de la pagina */
+    /*flex-wrap: wrap;*/
+    /* para aliniar item de forma vertica
+    align-items: flex-start;
+    */
+}
+
+.project-imageWrapper{
+    width: 500px;
+}
+
+.project-datails {
+    width: 500px;
+}
+
+.header{
+    background-color:#1b2127 ;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    align-items: center;
+  
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.hero h1 {
+    color: white;
+}
+
+.hero h1 strong {
+    color: blue;
+}
+.hero-image{
+    object-fit: cover;
+
+}
+
+.project {
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-content: center;
+    justify-content:space-between ;
+}
+.portfolio {
+    background-color: #fafafa;
+    margin: 20px;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+figure{
+    margin: 0;
+}
+
+
+footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    letter-spacing: initial;
+    justify-content: space-between;
+}
+
+footer img{
+    vertical-align: middle;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.project-title{
+    font-size: 40px;
+}
+
+
+.project-title,
+.project-course,
+.project-date,
+.project-url{
+    margin: 10px 0;
+}
+
+.project-description{
+    font-size: 20px;
+
+}
+
+.event{
+   
+    margin: 10px 10px;
+    background-color: rgb(189, 194, 243);
+    border-radius: 10px;
+   
+}
+
+.event-detail{
+    display: flex;
+    border-radius: 10px;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.event-components{
+    padding: 20px ;
+    text-align: center;
+    margin: 10px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    display: block;
+    width: 400px;
+    
+}
+
+.event-url{
+    color: blue;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.event-image{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contac{
+    height:180px;
+    background-color: #056fff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+
+}
+
+
+.social{
+    display: flex;
+
+}
+
+
+.social-links{
+
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 0 10px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    
+}
+.social-links.facebook{
+    background-image: url(../images/facebook.svg);
+    
+}
+
+.social-links.twitter{
+    background-image: url(../images/twitter.svg);
+    
+}
+.social-links.instagram{
+    background-image: url(../images/instagram.svg);
+    
+}
+.social-links.linkedin{
+    background-image: url(../images/github.svg);
+    
+}
+
+.from-email{
+    background-image: url(../images/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-size: 18px;
+}
+
+.form button{
+    background-color: transparent;
+    display: block;
+    margin: 10px 10px;
+    padding: 5px 20px;
+    margin-left: 50px;
+    border-radius:  5px;
+    color: white;
+}
+
+.container h2{
+    margin-left: 20px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    
+   
+
+
+}
+
